@@ -4,6 +4,9 @@ body{
 }
 
 .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -25,7 +28,7 @@ body{
     background-color: #009371;
     height: 45px;
     width: 100%;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .word{
