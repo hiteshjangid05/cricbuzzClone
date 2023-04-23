@@ -12,8 +12,6 @@ body{
     flex-direction: column;
 }
 
-
-
 .blue-container{
     display: flex;
     justify-content: center;
@@ -28,14 +26,12 @@ body{
     margin: 0 auto;
 }
 
-
 .word{
     display: flex;
     color: white;
     align-items: center;
     padding-left: 17px;
     font-size: 14px;
-
 }
 
 .whitebox{
@@ -97,207 +93,147 @@ body{
     align-items: center;
     padding-left: 150px;
     padding-right: 20px;
-    margin-right: 4px;
-
 }
-
-.picture{
-    display: flex;
-    align-items: center;
-    padding-right: 7px;
-}
-
-.grey-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;    
-
-}
-
-.greybox{
-    display: flex;
-    background-color: #4a4a4a;
-    height: 40px;
-    width: 980px;
-    margin: 0 auto;
-    color: white;
-    align-items: center;
-    font-size: 13px;
-}
-
-.blackbox{
-    display: flex;
-    height: 40px;
-    width: 90px;
-    background-color: #222;
-    color: white;
-    align-items: center;
-    font-size: 13px;
-    padding-left: 25px;
-    margin-right: 18px;
-}
-
-.word2{
-
-    display: flex;
-
-    align-items: center;
-
-    padding-right: 19px;
-
-}
-
-
-.word3{
-
-    display: flex;
-
-    align-items: center;
-
-    padding-left: 150px;
-
-    padding-right: 20px;
-
-}
-
 
 .box-container{
-
     font-size: small;
-
     justify-content: center;
-
     align-items: center;
-
     display: flex;
-
 }
-
-
 
 .column{
-
     padding: 3px;           
-
 }
-
-
 
 .box{
-
     width: 240px;
-
     height: 135px;
-
     background-color: white;
-
     margin-top: 7px;
-
     border-radius: 5px;
-
 }
-
-
 
 .wordbox{
-
     font-size: 13px;
-
 }
-
-
 
 .greybox2{
-
     display: flex;
-
     width: 961px;
-
     height: 38px;
-
     background-color: white;
-
     padding-top: 9px;
-
     font-size: 18px;
-
     margin-top: 5px;
-
     padding-left: 17px;
-
 }
-
-
 
 .word4{
-
     display: flex;
-
     font-size: 13px;
-
     color: #1866db;
-
     padding-left: 18px;
-
     padding-top: 6px;
-
     text-decoration: none underline #1866db;
-
 }
-
-
 
 a:link {
-
     text-decoration: none;
-
 }
-
   
-
 a:visited {
-
     text-decoration: none;
-
 }
-
   
-
 a:hover {
-
     text-decoration: underline black;
-
 }
-
   
-
 a:active {
-
     text-decoration: underline;
-
 }
-
-
 
 .a-text-link {
-
     text-decoration: underline #1866db;
-
 }
-
-
 
 .mainbox{
-
-    font-size: small;
-
-    justify-content: center;
-
-    align-items: center;
-
     display: flex;
-
-
 }
 
+.box2{
+    display: flex;
+    height: 1194px;
+    width: 196px;
+    background-color: white;
+}
 
+.box3{
+    display: flex;
+    height: 6258.5px;
+    width: 460.6px;
+    background-color: white;
+}
+
+.box4{
+    display: flex;
+    height: 290px;
+    width: 295px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.box5{
+    display: flex;
+    width: 308px;
+    height: 871.5px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.box6{
+    display: flex;
+    height: 300px;
+    width: 308px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.box7{
+    display: flex;
+    height: 1941px;
+    width: 308px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.box8{
+    display: flex;
+    height: 1158px;
+    width: 196px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.box9{
+    display: flex;
+    height: 921px;
+    width: 196px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.black-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.black{
+    width: 1350px;
+    height: 275px;
+    background: #4a4a4a;
+    margin-top: 7rem;
+}
