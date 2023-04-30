@@ -171,7 +171,7 @@ a:active {
 
 .box3{
     display: flex;
-    height: 6258.5px;
+    height: 3544.5px;
     width: 460.6px;
     background-color: white;
 }
@@ -185,25 +185,38 @@ a:active {
     padding-top: 10px;
 }
 
+.boxs{
+    display: flex;
+    height: 270px;
+    width: 295px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
 .box5{
     display: flex;
     width: 308px;
-    height: 871.5px;
+    height: 895.5px;
     background-color: white;
     margin-top: 5px;
+    flex-direction: row;
 }
 
 .box6{
     display: flex;
-    height: 300px;
-    width: 308px;
+    height: 290px;
+    width: 295px;
     background-color: white;
     margin-top: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .box7{
     display: flex;
-    height: 1941px;
+    height: 2273.5px;
     width: 308px;
     background-color: white;
     margin-top: 5px;
@@ -235,5 +248,21 @@ a:active {
     width: 1350px;
     height: 275px;
     background: #4a4a4a;
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
+
+.imgbox{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+}
+
+.bluetext {
+    text-transform: uppercase;
+    color: #009270;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0;
+  }
