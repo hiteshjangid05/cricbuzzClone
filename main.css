@@ -1,9 +1,9 @@
-/* start */
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
      Geneva, Verdana, sans-serif;
 }
+
 
 .main{
     display: flex;
@@ -13,7 +13,6 @@ body{
     flex-direction: column;
 }
 
-/* next1 */
 
 .blue-container{
     display: flex;
@@ -56,7 +55,6 @@ body{
     padding-right: 7px;
 }
 
-/* next2 */
 
 .grey-container{
     display: flex;
@@ -100,7 +98,6 @@ body{
     padding-right: 20px;
 }
 
-/* next3 */
 
 .box-container{
     font-size: small;
@@ -120,6 +117,12 @@ body{
     margin-top: 7px;
     border-radius: 5px;
 }
+
+
+.wordbox{
+    font-size: 13px;
+}
+
 
 .greyword{
     display: flex;
@@ -144,7 +147,6 @@ body{
     margin-top: 10px;
 }
 
-/* next4 */
 
 .greybox2{
     display: flex;
@@ -186,7 +188,13 @@ a:active {
     text-decoration: underline #1866db;
 }
 
-/* next5 */
+
+.mainbox{
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 .mainbox{
     display: flex;
@@ -283,7 +291,7 @@ a:active {
     margin-top: 10px;
 }
 
-/* next6 */
+
 
 .black-container{
     display: flex;
@@ -329,4 +337,4 @@ a:active {
     background-color: rgb(255, 187, 0);  
 }
 
-/* next7 */
+
