@@ -1,8 +1,9 @@
+/* start */
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
      Geneva, Verdana, sans-serif;
 }
-
 
 .main{
     display: flex;
@@ -11,6 +12,8 @@ body{
     text-align: center;
     flex-direction: column;
 }
+
+/* next1 */
 
 .blue-container{
     display: flex;
@@ -52,6 +55,8 @@ body{
     align-items: center;
     padding-right: 7px;
 }
+
+/* next2 */
 
 .grey-container{
     display: flex;
@@ -95,6 +100,8 @@ body{
     padding-right: 20px;
 }
 
+/* next3 */
+
 .box-container{
     font-size: small;
     justify-content: center;
@@ -114,9 +121,30 @@ body{
     border-radius: 5px;
 }
 
-.wordbox{
-    font-size: 13px;
+.greyword{
+    display: flex;
+    color: #464646;
+    font-size: 9px;
+    padding-top: 10px;
+    margin-left: 12px;
 }
+
+.blacksbox{
+    display: flex;
+    color: #ffffff;
+    background: #464646;
+    min-width: 21px;
+    border-radius: 6px;
+    padding-left: 3px;
+    margin-left: 15px;
+}
+
+.pinkrr{
+    display: flex;
+    margin-top: 10px;
+}
+
+/* next4 */
 
 .greybox2{
     display: flex;
@@ -158,6 +186,8 @@ a:active {
     text-decoration: underline #1866db;
 }
 
+/* next5 */
+
 .mainbox{
     display: flex;
 }
@@ -169,11 +199,42 @@ a:active {
     background-color: white;
 }
 
+.box8{
+    display: flex;
+    height: 1158px;
+    width: 196px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.box9{
+    display: flex;
+    height: 921px;
+    width: 196px;
+    background-color: white;
+    margin-top: 5px;
+}
+
 .box3{
     display: flex;
     height: 3544.5px;
     width: 460.6px;
     background-color: white;
+    flex-direction: row;
+}
+
+.wordss{
+    font-size: large;
+    padding-top: 1rem;
+    color: #666;
+    font-size: 11px;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+
+.imgbox2{
+    padding-left: 16px;
+    padding-top: 15px;
 }
 
 .box4{
@@ -183,16 +244,6 @@ a:active {
     background-color: white;
     padding-left: 15px;
     padding-top: 10px;
-}
-
-.boxs{
-    display: flex;
-    height: 270px;
-    width: 295px;
-    background-color: white;
-    padding-left: 15px;
-    padding-top: 10px;
-    margin-top: 10px;
 }
 
 .box5{
@@ -222,47 +273,60 @@ a:active {
     margin-top: 5px;
 }
 
-.box8{
+.boxs{
     display: flex;
-    height: 1158px;
-    width: 196px;
+    height: 270px;
+    width: 295px;
     background-color: white;
-    margin-top: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 
-.box9{
-    display: flex;
-    height: 921px;
-    width: 196px;
-    background-color: white;
-    margin-top: 5px;
-}
+/* next6 */
 
 .black-container{
     display: flex;
-    justify-content: center;
     flex-direction: row; 
+    justify-content: center;
 }
 
-.black{
+.mainbox2{
+    font-size: small;
+    justify-content: center;
+    display: flex;
+}
+
+.blackbox2{
+    display: inline-flex;
     width: 1350px;
     height: 275px;
-    background: #4a4a4a;
+    background-color: #4a4a4a;
+    font-size: 12px;
     margin-top: 3rem;
 }
 
-.imgbox{
-    display: flex;
-    margin-top: 2rem;
-    flex-direction: row;
+.column2{
+    padding: 10px;
 }
 
-.bluetext {
-    text-transform: uppercase;
-    color: #009270;
+.inblackbox{
+    color: white;
+    font-size: 15px;    
+    background-color: rgb(255, 187, 0); 
+    margin-right: 1rem; 
 }
 
-h4 {
-    font-size: 16px;
-    margin: 0;
-  }
+.inblackbox2{
+    color: white;
+    font-size: 15px;    
+    background-color: rgb(255, 187, 0);  
+}
+
+.inblackbox3{
+    color: white;
+    font-size: 15px;    
+    background-color: rgb(255, 187, 0);  
+}
+
+/* next7 */
