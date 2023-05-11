@@ -141,7 +141,27 @@ body{
 
 .pinkrr{
     display: flex;
-    margin-top: 10px;
+    margin-top: 9px;
+    margin-left: 13px;
+}
+
+.pinkrr2{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 13px;
+    font-size: 10px;
+}
+
+.graybox{
+    height: 21px;
+    width: 160px;
+    color: #464646;
+    background-color: #F0F0F0;
+    font-size: 11px;
+    margin-top: 8px;
+    border-radius: 0px 6px 6px 0px;
+    padding-top: 4px;
+    padding-left: 80px;
 }
 
 /* next4 */
@@ -189,14 +209,36 @@ a:active {
 /* next5 */
 
 .mainbox{
-    display: flex;
+    display: flex;    
 }
 
 .box2{
     display: flex;
-    height: 1194px;
+    display: block;
+    height: 1010.05px;
     width: 196px;
     background-color: white;
+}
+
+.blueword{
+    color: #009270;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 70px;
+}
+
+.smallword{
+    font-size: 12px;
+    color: #222;
+    padding-top: 8px;
+}
+
+hr {
+    display: block;
+    margin-top: 14px;
+    color: rgb(247, 247, 247);
+    font-size: 1px;
+    padding-left: 9px;
 }
 
 .box8{
@@ -223,6 +265,10 @@ a:active {
     flex-direction: row;
 }
 
+.wordss-container{
+    flex-direction: row;
+}
+
 .wordss{
     font-size: large;
     padding-top: 1rem;
@@ -242,7 +288,7 @@ a:active {
     height: 290px;
     width: 295px;
     background-color: white;
-    padding-left: 15px;
+    padding-left: 14px;
     padding-top: 10px;
 }
 
@@ -287,46 +333,57 @@ a:active {
 
 .black-container{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: center;
-}
-
-.mainbox2{
-    font-size: small;
-    justify-content: center;
-    display: flex;
 }
 
 .blackbox2{
-    display: inline-flex;
-    width: 1350px;
-    height: 275px;
     background-color: #4a4a4a;
-    font-size: 12px;
+    color: white;
+    height: 245px;
+    width: 1350px;
     margin-top: 3rem;
 }
 
+.mainbox2{
+    display: flex;
+}
+
 .column2{
-    padding: 10px;
+    padding: 20px;
+}
+
+.letter{
+    font-size: 12px;
 }
 
 .inblackbox{
-    color: white;
-    font-size: 15px;    
-    background-color: rgb(255, 187, 0); 
-    margin-right: 1rem; 
+    margin-left: 16rem;
+    margin-top: 20px;
 }
 
 .inblackbox2{
-    color: white;
-    font-size: 15px;    
-    background-color: rgb(255, 187, 0);  
+    font-size: 13px;
+    margin-top: 20px;
+    margin-right: 1rem;
 }
 
 .inblackbox3{
-    color: white;
-    font-size: 15px;    
-    background-color: rgb(255, 187, 0);  
+    font-size: 13px;
+    margin-top: 20px;
+} 
+
+.letter.container{
+    display: flex;
+    justify-content: center;
 }
 
-/* next7 */
+.letter2{
+    display: flex;
+    color: white;
+    font-size: 10px;
+    padding-left: 26rem;
+    padding-top: 10px;
+}
+
+/* stop */
