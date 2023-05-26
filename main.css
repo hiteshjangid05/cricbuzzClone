@@ -1,9 +1,9 @@
+/* start */
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
      Geneva, Verdana, sans-serif;
 }
-
 
 .main{
     display: flex;
@@ -13,6 +13,7 @@ body{
     flex-direction: column;
 }
 
+/* next1 */
 
 .blue-container{
     display: flex;
@@ -55,6 +56,7 @@ body{
     padding-right: 7px;
 }
 
+/* next2 */
 
 .grey-container{
     display: flex;
@@ -98,6 +100,7 @@ body{
     padding-right: 20px;
 }
 
+/* next3 */
 
 .box-container{
     font-size: small;
@@ -117,12 +120,6 @@ body{
     margin-top: 7px;
     border-radius: 5px;
 }
-
-
-.wordbox{
-    font-size: 13px;
-}
-
 
 .greyword{
     display: flex;
@@ -167,6 +164,7 @@ body{
     padding-left: 80px;
 }
 
+/* next4 */
 
 .greybox2{
     display: flex;
@@ -208,13 +206,7 @@ a:active {
     text-decoration: underline #1866db;
 }
 
-
-.mainbox{
-    font-size: small;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+/* next5 */
 
 .mainbox{
     display: flex;    
@@ -223,7 +215,7 @@ a:active {
 .box2{
     display: flex;
     display: block;
-    height: 1010.05px;
+    height: 995.05px;
     width: 196px;
     background-color: white;
 }
@@ -249,25 +241,41 @@ hr {
     padding-left: 9px;
 }
 
+.blueword4{
+    color: #009270;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 45px;
+    padding-bottom: 6px;
+}
+
 .box8{
-    display: flex;
-    height: 1158px;
+    display: block;
+    height: 1154px;
     width: 196px;
     background-color: white;
     margin-top: 5px;
 }
 
 .box9{
-    display: flex;
+    display: block;
     height: 921px;
     width: 196px;
     background-color: white;
     margin-top: 5px;
 }
 
+.blueword5{
+    color: #009270;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 90px;
+    padding-bottom: 6px;
+}
+
 .box3{
-    display: flex;
-    height: 3544.5px;
+    display: block;
+    height: 4190.5px;
     width: 460.6px;
     background-color: white;
     flex-direction: row;
@@ -277,18 +285,31 @@ hr {
     flex-direction: row;
 }
 
+.wordss2{
+    font-size: large;
+    padding-top: 1rem;
+    color: #666;
+    font-size: 12px;
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-bottom: 9px;
+}
+
 .wordss{
     font-size: large;
     padding-top: 1rem;
     color: #666;
-    font-size: 11px;
+    font-size: 12px;
     padding-top: 13px;
-    padding-left: 16px;
+    padding-right: 280px;
+    padding-bottom: 9px;
 }
 
 .imgbox2{
-    padding-left: 16px;
-    padding-top: 15px;
+    padding-right: 94px;
+    padding-top: 1px;
+    font-size: 24px;
+    color: #000000;
 }
 
 .box4{
@@ -301,17 +322,53 @@ hr {
 }
 
 .box5{
-    display: flex;
+    display: block;
     width: 308px;
     height: 895.5px;
     background-color: white;
     margin-top: 5px;
-    flex-direction: row;
+}
+
+.button3 {
+    display: flex;
+    background-color: #f0f0f0; 
+    color: black; 
+    border-left: 2px solid #d0021b;
+    border-right: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    height: 6rem;
+    width: 300px;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-bottom: 13px;
+}
+
+.button3:hover {
+    background-color: #e3e2e2;
+    color: #222;
+    border: 1px solid #c7c7c7;
+    border-left: 2px solid #d0021b;
+}
+
+.blueword2{
+    color: #009270;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 160px;
+    padding-bottom: 10px;
+}
+
+.blueword3{
+    color: #009270;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right: 220px;
+    padding-bottom: 10px;
 }
 
 .box6{
     display: flex;
-    height: 290px;
+    height: 280px;
     width: 295px;
     background-color: white;
     margin-top: 5px;
@@ -320,11 +377,25 @@ hr {
 }
 
 .box7{
-    display: flex;
-    height: 2273.5px;
+    display: block;
+    height: 2165px;
     width: 308px;
     background-color: white;
     margin-top: 5px;
+}
+
+.mediumword{
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+
+.mediumword2{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.mediumword3{
+    font-size: 13px;
 }
 
 .boxs{
@@ -337,7 +408,7 @@ hr {
     margin-top: 10px;
 }
 
-
+/* next6 */
 
 .black-container{
     display: flex;
@@ -394,4 +465,4 @@ hr {
     padding-top: 10px;
 }
 
-
+/* stop */
